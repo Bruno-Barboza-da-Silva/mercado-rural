@@ -1,0 +1,55 @@
+header {
+    background-color: green;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons {
+    height: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons {
+    background-color: aqua;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-esquerda {
+    display: flex;
+}
+
+#logo-direita {
+    display: flex;
+}
+
+#cotacoes {
+    background-color: gray;
+    border: 5px solid gray;
+    display: flex;
+}
+
+.precos {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 0 10px;
+}
