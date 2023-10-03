@@ -1,12 +1,16 @@
 import "./entrar.css";
 import mercado from "../../images/icone-mercado.svg";
 import trator from "../../images/icone-trator.svg";
+import retorno from "../../images/icone-retorno.svg";
 import { Link } from "react-router-dom";
 
 function Entrar() {
   return (
     <div id="container">
       <form action="">
+      <Link to="/">
+      <img src={retorno} alt="" id="return" />
+      </Link>
         <h1>Entrar</h1>
         <label htmlFor="">E-mail:</label>
         <input type="email" />
