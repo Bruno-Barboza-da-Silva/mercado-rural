@@ -17,9 +17,9 @@ function HeaderLogin() {
               {" "}
               Entrar
             </Link>
-            <Link to="/cadastrar-produto" className="buttons">
+            <Link to="/cadastro" className="buttons">
               {" "}
-              Anunciar
+              Crie sua conta
             </Link>
           </div>
           <img src={trator} alt="" className="icons" />
