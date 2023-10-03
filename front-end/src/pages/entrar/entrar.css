@@ -1,0 +1,39 @@
+form {
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Opcional: definir a altura da container */
+  }
+  
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+footer {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+

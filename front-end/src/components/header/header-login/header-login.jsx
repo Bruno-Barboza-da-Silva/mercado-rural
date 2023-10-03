@@ -13,8 +13,11 @@ function HeaderLogin() {
         </div>
         <div id="logo-direita">
           <div id="buttons">
-            <button className="buttons">Usuário</button>
-            <Link to="" className="buttons">
+          <Link to="/entrar" className="buttons">
+              {" "}
+              Entrar
+            </Link>
+            <Link to="/cadastrar-produto" className="buttons">
               {" "}
               Anunciar
             </Link>
