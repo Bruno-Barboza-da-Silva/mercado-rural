@@ -7,17 +7,19 @@ const express = require('express')
 const cors = require('cors')
 // import path from 'path' 
 const app = express();
+app.use(express.json());
+app.use(cors())
 
+const cadastroUsuarioRouter = require('./routes/cadastroUsuario.router')
 
-
+app.use("/cadastro", cadastroUsuarioRouter)
 
 // const contactRouter = require('./routes/contactUs.router')
 // const sendRouter = require("./routes/send.router")
 // const managerRouter = require("./routes/manager.router")
 // const updateRouter = require("./routes/update.router")
 
-// app.use(express.json());
-// app.use(cors())
+
 
 // app.use("/contact-us", contactRouter);
 
