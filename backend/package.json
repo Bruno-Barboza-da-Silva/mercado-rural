@@ -5,7 +5,12 @@
   "main": "database.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "database-create": "npx sequelize-cli db:create"
+    "server": "nodemon index.js",
+    "database-create": "npx sequelize-cli db:create",
+    "execute:migration": "npx sequelize-cli db:migrate",
+    "undo:migration": "npx sequelize-cli db:migrate:undo"
+
+
 
   },
   "keywords": [],
