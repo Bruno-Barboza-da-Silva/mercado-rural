@@ -8,10 +8,9 @@
     "server": "nodemon index.js",
     "database-create": "npx sequelize-cli db:create",
     "execute:migration": "npx sequelize-cli db:migrate",
-    "undo:migration": "npx sequelize-cli db:migrate:undo"
-
-
-
+    "undo:migration": "npx sequelize-cli db:migrate:undo",
+    "execute:seeder": "npx sequelize-cli db:seed:all",
+    "undo:seeder": "npx sequelize-cli db:seed:undo"
   },
   "keywords": [],
   "author": "",
