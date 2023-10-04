@@ -1,0 +1,21 @@
+div .cadastro{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: green;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+a .cadastro{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+h1 .cadastro{
+    color: white;
+}
