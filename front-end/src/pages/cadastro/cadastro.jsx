@@ -4,9 +4,9 @@ import trator from "../../images/icone-trator.svg";
 import retorno from "../../images/icone-retorno.svg";
 import { Link } from "react-router-dom";
 import axios from 'axios'
-import React,{useState, useEffect} from "react";
+import {useState} from "react";
 import { useNavigate } from "react-router-dom";
-import { useParams } from 'react-router-dom';
+
 
 
 function Cadastro() {
@@ -20,9 +20,6 @@ function Cadastro() {
   
   
   const [email, setEmail] = useState()
-  function changeName(ev) {
-        setName(ev.target.value)
-      }
   
   function changeEmail(ev) {
     setEmail(ev.target.value)
@@ -40,7 +37,7 @@ function Cadastro() {
       "email": email,
       "senha": senha
     },)
-    .then(navigate("/"))
+    .then(navigate("/cadastro/cadastro-realizado"))
     }
 
 
